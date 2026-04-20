@@ -300,7 +300,7 @@ def normalize_series(series):
 
 def fetch_poster_from_omdb(title):
     try:
-        api_key = st.secrets["OMDB_API_KEY"]
+        api_key = st.secrets["da63664"]
     except Exception:
         return "https://via.placeholder.com/300x450.png?text=No+Poster"
 
